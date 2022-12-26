@@ -74,3 +74,5 @@ Console.WriteLine("Исходный массив строк: ");
 PrintArray(array1);
 Console.WriteLine($"\n\nНовый массив размером --> ({howMany}) \n с элементами длинной меньше 4: ");
 PrintArray(newArray);
+
+// Калинкин Алексей
