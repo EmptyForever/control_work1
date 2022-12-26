@@ -52,7 +52,7 @@ void PrintArray(string[] arr)
     Console.Write("]");
 }
 
-Console.WriteLine("Введите размер будущегом ассива: ");
+Console.WriteLine("Введите размер будущегом массива: ");
 int size1 = Convert.ToInt32(Console.ReadLine());
 
 // создаём массив из size1 элементов
@@ -70,9 +70,10 @@ for (int i = 0; i < array1.Length; i++)
 int howMany = HowManyStringMore3(array1);
 Console.WriteLine($"{howMany}");
 string[] newArray = FillArr(array1, howMany);
+Console.Clear();
 Console.WriteLine("Исходный массив строк: ");
 PrintArray(array1);
-Console.WriteLine($"\n\nНовый массив размером --> ({howMany}) \n с элементами длинной меньше 4: ");
+Console.WriteLine($"\n\nНовый массив размером --> ({howMany}) \n  с элементами длинной меньше 4: ");
 PrintArray(newArray);
 
 // Калинкин Алексей
